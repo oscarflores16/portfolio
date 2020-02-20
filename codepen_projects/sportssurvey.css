@@ -8,6 +8,10 @@ body {
   min-width: 310px;
 }
 
+.title{
+    color: white;
+}
+
 header {
   font-size: 2em;
   font-weight: bold;
