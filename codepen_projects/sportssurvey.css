@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Poor+Story');
+
+html,
+body {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'Arial', cursive;
+  min-width: 310px;
+}
+
+header {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 30px;
+}
+
+#form-outer {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 74%;
+  max-width: 910px;
+  padding: 15px;
+  padding-top: 30px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 2px;
+}
+
+#userAge {
+  width: 40px;
+}
+
+.userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+#submit {
+  background-color: green;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 50px;
+  width: 200px;
+  margin: 12px;
+  border: 0px solid;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid blue;
+  border-radius: 2px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 843px) {
+  .input-field {
+    width: 60%;
+  }
+  select {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
+footer {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-size: 30px;
+}
